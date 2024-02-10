@@ -3,7 +3,7 @@
 Db2 z/OS is probably best known for supporting intense transactional workloads running in IMS and CICS on z/OS. 
 But Db2 z/OS also has a massively scalable capabality to support workloads from remote platforms (linux, unix, windows cloud etc...) using industry-standard SQL and REST APIs.
 
-The "Distributed Data Facility" is the part of Db2 z/OS that supports SQL and REST interfaces from heterogeneous client platforms.
+The "Distributed Data Facility" is the component of Db2 z/OS that supports SQL and REST interfaces from heterogeneous client platforms.
 
 ![typical_cdc](./images/typical_cdc.JPG)
 
@@ -33,6 +33,20 @@ The content of this repository has been structured into separate documents as fo
 3. [Simple Usage Scenarios](https://github.com/zeditor01/cdc_examples/blob/main/documents/deploy_admintools.md)
 4. [Broader Deployment Considerations](https://github.com/zeditor01/cdc_examples/blob/main/documents/deploy_chcclp_zos.md)
 
+Licensing ( Db2 Connect )
+Db2 Clients and Drivers
+Open APIs ( ODBC, DOTNET, JDBC T2, JDBC T4, SQLJ ) 
+Configuration the Client Side 
+Configuring the Server Side
+High Availability - Db2 Data Sharing
+Rich SQL Functionality - Jupyter Notebooks
+Dynamic SQL considerations
+Static SQL considerations
+Stored Procedures
+Performance considerations
+Observability: Monitoring, Accounting and Tracing 
+
+
 
 ## Contents of *this* document
 
@@ -61,3 +75,11 @@ AAA.
 * bbb
 * ccc
 * ddd 
+
+DDF SQL
+
+
+
+
+
+
